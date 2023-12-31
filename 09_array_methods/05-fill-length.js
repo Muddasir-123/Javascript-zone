@@ -7,5 +7,8 @@ colors.fill("white")
 console.log(colors) // return modified array ...
 console.log(colors)
 
-//// length method: return array length
+//// ****  length method: return array length
 console.log(colors.length)
+
+//// **** reverse method: reverve array elements
+console.log(colors.reverse())
