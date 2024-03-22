@@ -1,4 +1,3 @@
-// Return Value:
 // slice():
 // Returns: A new array containing elements selected from the original array.
 // Original array: Not modified.
@@ -18,8 +17,8 @@ let colors = ["black", "blue", "green", "orange", "yellow"]
 
 //// *** slice  method: to a slice from array in range  but  doesn't modify original array
 colors.slice(0,3) // starts from 0 and ends before 3 on 2
-console.log(colors.slice(0,3)) // get values :  black, blue, green 
-console.log(colors) // original array
+console.log(colors.slice(0,3)) // get values : [ black, blue, green ]
+console.log(colors) // [ original array]
 
 
 
@@ -27,6 +26,9 @@ console.log("____ splice method ___")
 
 
 //// *** splice method :  get 2 perameters start and number of elemets to be deleted : modify original array
+// Modify original array
+// Return : Array 
+// Feature : Delete elements from array also replace with new elements
 colors.splice(0,3) // removed : blue and green
 console.log(colors) // orange , yellow
 

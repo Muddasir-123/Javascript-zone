@@ -6,18 +6,14 @@
 
 let title = "Deep learning"
 
-
-
-//// *** length method
+/// *** length method
 console.log(title.length) // 13  : include white spaces
-
-
 
 //// *** indexOf  methods :
 console.log(title.indexOf("D")) // 0
 console.log(title.indexOf("Deep")) // 0
 console.log(title.indexOf("d")) // -1 : if character not found
-console.log(title.indexOf("r")) // 88
+console.log(title.indexOf("r")) // 8
 console.log(title.indexOf("e")) // 1 : will return the index of first e found in the string
 
 
@@ -40,9 +36,3 @@ console.log(title.includes("d")) // false
 console.log(title.includes("D")) // true
 console.log(title.includes("ee")) // true
 console.log(title.includes("eee")) // false : because there are double ee not triple in Deep
-
-
-
-
-
-

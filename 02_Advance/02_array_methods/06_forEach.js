@@ -56,8 +56,8 @@ console.log("_____________________________________________________")
 // 04 forEach with with other peratmeters
 
 coding.forEach((lang, index, arr)=>{
-    console.log(index) // indexes
     console.log(lang) // values
+    console.log(index) // indexes
     console.log(arr) // whole array
 })
 
@@ -108,7 +108,7 @@ console.log(p.productName) // get all products name
 
 
 
-
+// Store forEach in variable
 
 // with console inside
 const data = products.forEach((p) => {

@@ -36,9 +36,6 @@ data("Passing array as an argument", ...array1); // array as argument as spread 
 //   the properties of an object into another array or object, making it easier to 
 //   work with collections and data structures in JavaScript.
 
-
 //// ____________________________________________________________________________________
-
-
 
 // node _04_spread_ope.js

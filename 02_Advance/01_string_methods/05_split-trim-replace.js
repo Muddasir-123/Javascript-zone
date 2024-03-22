@@ -1,6 +1,6 @@
-// split(separator): Splits a string into an array of substrings based on a specified separator.
-// trim(): Removes whitespace from the beginning and end of a string.
-// replace(oldValue, newValue): Replaces occurrences of a substring with a new substring.
+//01: .split(separator): Splits a string into an array of substrings based on a specified separator.
+//02:  trim(): Removes whitespace from the beginning and end of a string.
+//03:  replace(oldValue, newValue): Replaces occurrences of a substring with a new substring.
 
 
 const quote = "  Thoughts become things   "
